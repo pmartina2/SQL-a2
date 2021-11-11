@@ -1,0 +1,4121 @@
+<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>A2</title>
+    <style>
+                    /* simple reset */
+                    html, body, ul, ol, li, form, fieldset, h1, h2, h3, h4, h5, h6, p { margin: 0; font-family:Sans-Serif; font-size:12px;line-height:1.4em;}
+                    fieldset,img { border: 0; }
+                    li { list-style: circle; }
+                    sup { vertical-align: text-top; }
+                    sub { vertical-align: text-bottom; }
+                    table{border-collapse: collapse;border-spacing: 0;}
+                    caption, th, td{text-align: left;vertical-align: top;font-weight: normal;}
+                    input, textarea, select{line-height: 1.1;}
+                    /*Content*/
+                    body {margin:16px; background-color:#f0f0f0; }
+                    h1 {font-weight:normal;color:#156F89;font-size:300%;margin-bottom:0.5em;}
+                    h2 { clear:both;font-weight:normal;color:#000000;font-size:220%;margin-top:1em;margin-bottom:0.5em;}
+                    h3 { clear:both;font-weight:normal;color:#000000;font-size:160%;margin-top:1em;margin-bottom:0.5em;}
+                    a, a:visited {color:#000000;}
+                    .navBar {}
+                    .object { clear:both; background-color:#ffffff; padding:10px;margin-top:10px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;border:1px solid #e9e9e9;}
+                    .object h3 {margin-top:0px;}
+                    .comment {margin-bottom:1em;}
+                    .attributes {}
+                    .attribute {clear:both;border-top:1px solid #e9e9e9;padding-top:6px;padding-bottom:6px;}
+                    .attributeName {float:left;width:200px;}
+                    .attributeComment {margin-left:220px;}
+                    .footer {margin:0.5em;margin-top:1em;}
+                </style>
+  </head>
+  <body>
+    <h1>A2</h1>
+    <div class="navBar">Jump to: 
+                <a href="#Table">Table</a> <a href="#StoredProcedure">StoredProcedure</a> <a href="#Function">Function</a> <a href="#View">View</a> <a href="#Schema">Schema</a> </div>
+    <div class="groups">
+      <div class="group"><a name="Table"></a><h2>Table</h2>
+        <div class="objects">
+          <div class="object">
+            <h3>bill.XfrClientPairRules</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">rank</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DOMAIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">campaignLike</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">listLike</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">dispositionLike</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Product</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">billtoClient</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">XfrParty</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>bill.XfrClientRates</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">billtoClient</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">dispositionLike</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">MinTimeAfterAgentDC</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">rate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.AgentHours</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">LoginEntryID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DOMAIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT EMAIL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LOGIN TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LOGOUT TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LOGIN TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SKILL AVAILABILITY</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.AgentHoursConvoso</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">LoginEntryID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DOMAIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT EMAIL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LOGIN TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LOGOUT TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LOGIN TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SKILL AVAILABILITY</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.AgentHoursTest</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">LoginEntryID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DOMAIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT EMAIL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LOGIN TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LOGOUT TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LOGIN TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SKILL AVAILABILITY</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.APIPushActivity</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">APIPushActivityID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">APIName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">URL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CreatedOn</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CreatedBy</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Result</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.BillingType</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">BillingTypeID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BillingTypeA</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BillingTypeB</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BillingTypeC</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.CallLogCommon</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">CALL_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">lead_id</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DOMAIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SESSION_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_TYPE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS_COMPLETED_IN_IVR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CAMPAIGN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LIST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CAMPAIGN_TYPE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SKILL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CUSTOMER_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_STATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_AREA_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_COUNTRY</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_COUNTRY_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">NOTES</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LIVE_CONNECT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">NO_PARTY_CONTACT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RECORDINGS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SERVICE_LEVEL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SPEED_OF_ANSWER</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BILL_TIME_ROUNDED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TALK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TRANSFERS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_LAST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_FIRST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ABANDON_RATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ABANDONED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_AREA_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_COUNTRY</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_COUNTRY_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_STATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_SURVEY_RESULT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS_TIMED_OUT_IN_IVR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACTED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISCONNECTED_FROM_HOLD</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_GROUP_A</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_GROUP_B</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_GROUP_C</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_PATH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">IVR_PATH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARENT_SESSION_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_EMAIL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_GROUP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_EMAIL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_EXTENSION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_FIRST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_GROUP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_LAST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">EXTENSION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_DECLINED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_DELETED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_HANDLE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_HANDLED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_RETURNED_CALL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_TRANSFERRED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">3RD_PARTY_TALK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AFTER_CALL_WORK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONFERENCE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONFERENCES</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONSULT_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">COST</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DIAL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HANDLE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOLD_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOLDS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">IVR_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">MANUAL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARKS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_INTERRUPTED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_INTERRUPTED_BY_CALL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_INTERRUPTED_BY_SKILL_VM</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_CALLBACK_PROCESSING</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_CALLBACK_REGISTERED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_CALLBACK_WAIT_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_WAIT_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RING_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TALK_TIME_LESS_HOLD_AND_PARK</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIME_TO_ABANDON</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TOTAL_QUEUE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VIDEO_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">city</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">company</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACT_CREATE_TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACT_MODIFIED_TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACT_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE_AND_HOUR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DAY_OF_MONTH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DAY_OF_WEEK</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">drop</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">email</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">first_name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">last_name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HALF_HOUR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOUR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOUR_OF_DAY</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">lender</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">loan_amount</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">loan_type</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">MONTH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">number1</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">number2</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">number3</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">origination_date</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">payment</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUARTER_HOUR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">state</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">street</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">transfer_Number</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">YEAR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">zip</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TransferType</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Disposition.FG_Code</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Site_Number</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">study</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">jornaya_id</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.CallLogCommon_TEMP</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">CALL_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">lead_id</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DOMAIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SESSION_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_TYPE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS_COMPLETED_IN_IVR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CAMPAIGN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LIST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CAMPAIGN_TYPE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SKILL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CUSTOMER_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_STATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_AREA_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_COUNTRY</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_COUNTRY_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">NOTES</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LIVE_CONNECT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">NO_PARTY_CONTACT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RECORDINGS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SERVICE_LEVEL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SPEED_OF_ANSWER</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BILL_TIME_ROUNDED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TALK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TRANSFERS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_LAST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_FIRST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ABANDON_RATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ABANDONED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_AREA_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_COUNTRY</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_COUNTRY_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_STATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_SURVEY_RESULT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS_TIMED_OUT_IN_IVR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACTED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISCONNECTED_FROM_HOLD</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_GROUP_A</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_GROUP_B</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_GROUP_C</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_PATH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">IVR_PATH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARENT_SESSION_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_EMAIL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_GROUP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_EMAIL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_EXTENSION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_FIRST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_GROUP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_LAST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">EXTENSION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_DECLINED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_DELETED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_HANDLE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_HANDLED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_RETURNED_CALL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_TRANSFERRED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">3RD_PARTY_TALK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AFTER_CALL_WORK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONFERENCE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONFERENCES</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONSULT_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">COST</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DIAL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HANDLE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOLD_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOLDS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">IVR_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">MANUAL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARKS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_INTERRUPTED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_INTERRUPTED_BY_CALL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_INTERRUPTED_BY_SKILL_VM</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_CALLBACK_PROCESSING</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_CALLBACK_REGISTERED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_CALLBACK_WAIT_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_WAIT_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RING_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TALK_TIME_LESS_HOLD_AND_PARK</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIME_TO_ABANDON</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TOTAL_QUEUE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VIDEO_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">city</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">company</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACT_CREATE_TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACT_MODIFIED_TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACT_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE_AND_HOUR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DAY_OF_MONTH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DAY_OF_WEEK</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">drop</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">email</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">first_name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">last_name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HALF_HOUR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOUR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOUR_OF_DAY</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">lender</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">loan_amount</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">loan_type</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">MONTH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">number1</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">number2</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">number3</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">origination_date</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">payment</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUARTER_HOUR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">state</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">street</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">transfer_Number</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">YEAR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">zip</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TransferType</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Disposition.FG_Code</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.CallLogCommonCount</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">CallCount</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Timestamp</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.Campaigns</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">Client</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TransferDisposition</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TransferType</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">id</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.Client</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">ClientID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ClientName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">MarketSegmentID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BillingType</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BillingRate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BillingRateStartDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BillingRateEndDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.D16DATA</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">CALL ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CAMPAIGN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL TYPE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ABANDONED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TALK TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">loan_amount</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">lead_id</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.DailyLeadsAnalysis</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">Client</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Domain</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Date</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Leads_Sent</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Total_Calls</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Unique_Leads</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Contacts</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Transfers</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Burns</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BadNumber</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNC</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Rate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Hours</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Daily_Rev</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.DateList</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">DATE</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.dispo</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">Name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Domain</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Client</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Disposition</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Description</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">isContact</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">isTransfer</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">isBurn</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">isBadNumber</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">isDNC</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">isRevenue</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DoNotUse</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">IDCol</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.DispoAssignment</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">F9_campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Date Added</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Client</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Client Campaign Name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Client Short Name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Dispo</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Active</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.Grades</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">Student</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Subject</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Marks</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.MarketSegment</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">MarketSegmentID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SegmentName</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.OtSideHoursPeriod4</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">DATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DOMAIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">code</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Period</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">week</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">year</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">a2id</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">file_number</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">location</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">job_code</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Manager</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">last_name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">first_name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">FULL NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">time</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.ProgressivePayouts</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">Vendor_State</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Payout</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.testJSON</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">id</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">_id</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">product_name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">supplier</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">unit_cost</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">quantity</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>rpt.CampaignMatrix</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">Campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Short_Name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Date</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Leads_Sent</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">New</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">In_Progress</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Unreachable</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Final</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Total_Calls</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Unique_Leads</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Contacts</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Transfers</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Burns</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BadNumbers</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNC</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TalkTime</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Call_Time</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Speed_To_Lead</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Lead_To_Contact</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="group"><a name="StoredProcedure"></a><h2>StoredProcedure</h2>
+        <div class="objects">
+          <div class="object">
+            <h3>dbo.A2_Participant_Call_Log</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@reportdate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.AgentDispositionBreakdownReport</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.AgentPerformanceMetrics</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@StartDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@EndDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@Client</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.AIS05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.AIS16_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.AllstateMandell05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.AllstateSelz05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.AnswerFinancial0516_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.BetterMortgage05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.BetterSpeed2Lead</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@StartDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@EndDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.CallLogPerformanceReport</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@BeginDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@EndDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@client</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.CallLogPerformanceReportBrian</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@BeginDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@EndDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@client</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.CallX05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.CampaignDispositionBreakdownReport</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.Caufield05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.Caufield16_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.ColdWarmTransfers</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@StartDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@EndDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.ColdWarmTransferV2</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@StartDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@EndDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.CoreDigital05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.CreditPros0516_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.D5PerformanceReport</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@Month</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@year</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.D5SubReport</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@month</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@year</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.FinanceGuruKPIReporting</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.FreedomDebtRelief16_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.InproperTransfers</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@ReportDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.IQVIA_Cabaletta_IB</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@reportDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaignName</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.IQVIA_Cabaletta_OB</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@reportDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.IQVIA_CovidScreening</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@reportdate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.IQVIA_PerformanceScorecard</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@ReportDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.IQVIA_PerformanceScorecard_Copy2</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@ReportDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.IQVIAAllCampaignsSummary</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@ReportDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@CAMPAIGN</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.IQVIABilling</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@ReportDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.IQVIABilling_Copy</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@ReportDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.IQVIACallVolumeBreakdown</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@ReportDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@CAMPAIGN</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.IQVIACallVolumeBreakdown_copy</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@ReportDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.IQVIACallVolumeBreakdown_copy_copy</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@ReportDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.LexingtonLaw0516_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.LibertyMutual0516_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.Marchex16_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.Midwest16_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.NewRez05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.NLC05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.NLCLeads_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.Ovation0516_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.PolicyFuel05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.Progressive16_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.ProgressiveTotal_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.RateMarketplace0516_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.RateZip05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.RefiDot05_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.ReFiInboundCallVolumeSummary</h3>
+            <div class="attributes"></div>
+          </div>
+          <div class="object">
+            <h3>dbo.sp_CallLogCommonCounter</h3>
+            <div class="attributes"></div>
+          </div>
+          <div class="object">
+            <h3>dbo.sp_CampaignMatrix</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.sp_CLC_Count_email</h3>
+            <div class="attributes"></div>
+          </div>
+          <div class="object">
+            <h3>dbo.sp_GetDailyHoursByAgent</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@keyword</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.sp_GetDailyHoursByAgent_Revised</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@keyword</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@PRStartDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@PREndDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.spStgTransF905andMTMtoA2WH</h3>
+            <div class="attributes"></div>
+          </div>
+          <div class="object">
+            <h3>dbo.usp_TransferRevenue</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.VetsUnited_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.VetsUnitedLeads_PayoutReportByDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@startDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@endDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>rpt.Domain16Stats</h3>
+            <div class="attributes"></div>
+          </div>
+          <div class="object">
+            <h3>rpt.FMCWebFormStats</h3>
+            <div class="attributes"></div>
+          </div>
+        </div>
+      </div>
+      <div class="group"><a name="Function"></a><h2>Function</h2>
+        <div class="objects">
+          <div class="object">
+            <h3>dbo.fn_GetDailyHoursByAgent</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@keyword</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@PRStartDate</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@PREndDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.fnBitFromYesNo</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@Value</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.fnConvertTextToInteger</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@Text</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.fnFirstName</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@FullName</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.fnGetAgentHours</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@Domain</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.fnGetAgentTime</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@AgentName</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.fnGetDecimalTime</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@Time_HHMMSS</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.fnGetSeconds</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@TimeFormatted</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.fnGetSecondsRoundUp</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@TimeFormatted</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.fnLongDate</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@FullDate</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.FnSplit</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@List</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@SplitOn</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.fnStripPhoneNum</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@Phone</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.TvfMVParamSplit</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">@RepParam</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@Delim</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetBadNumberByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetBurnsByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetCallTimeByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetContactsByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetContactsPerCallsByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetContactsPerULeadsByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetContacttoConversionByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetContactToTransferByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetDNCByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetFinalByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetInProgressByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetLeadsSentByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetListPenByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetNewByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetTalkTimeByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetTotalCallsByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetTransfersByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetUniqueLeadsByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_GetUnReachableByDay</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@campaign</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@shortName</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@date</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.udf_TalkTimeAfterAgentDC</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">
+                </div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@callID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@domain</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">@calltype</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="group"><a name="View"></a><h2>View</h2>
+        <div class="objects">
+          <div class="object">
+            <h3>dbo.CallLogCommon_WithDomain2</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">CALL_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">lead_id</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DOMAIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SESSION_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_TYPE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS_COMPLETED_IN_IVR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CAMPAIGN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LIST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CAMPAIGN_TYPE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SKILL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CUSTOMER_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_STATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_AREA_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_COUNTRY</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_COUNTRY_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">NOTES</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LIVE_CONNECT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">NO_PARTY_CONTACT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RECORDINGS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SERVICE_LEVEL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SPEED_OF_ANSWER</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BILL_TIME_ROUNDED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TALK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TRANSFERS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_LAST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_FIRST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ABANDON_RATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ABANDONED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_AREA_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_COUNTRY</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_COUNTRY_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_STATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_SURVEY_RESULT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS_TIMED_OUT_IN_IVR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACTED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISCONNECTED_FROM_HOLD</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_GROUP_A</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_GROUP_B</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_GROUP_C</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_PATH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">IVR_PATH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARENT_SESSION_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_EMAIL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_GROUP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_EMAIL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_EXTENSION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_FIRST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_GROUP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_LAST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">EXTENSION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_DECLINED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_DELETED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_HANDLE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_HANDLED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_RETURNED_CALL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS_TRANSFERRED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">3RD_PARTY_TALK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AFTER_CALL_WORK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONFERENCE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONFERENCES</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONSULT_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">COST</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DIAL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HANDLE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOLD_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOLDS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">IVR_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">MANUAL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARKS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_INTERRUPTED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_INTERRUPTED_BY_CALL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_INTERRUPTED_BY_SKILL_VM</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_CALLBACK_PROCESSING</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_CALLBACK_REGISTERED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_CALLBACK_WAIT_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_WAIT_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RING_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TALK_TIME_LESS_HOLD_AND_PARK</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIME_TO_ABANDON</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TOTAL_QUEUE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VIDEO_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.vw_AgtHrsBySkillAll</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">DOMAIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_FIRST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_LAST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LOGIN_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SKILL_AVAILABILITY</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.vw_CallLogCommon_2021</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">CALL_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">lead_id</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DOMAIN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SESSION_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_TYPE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS_COMPLETED_IN_IVR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CAMPAIGN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LIST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CAMPAIGN_TYPE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SKILL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CUSTOMER_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_STATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_AREA_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_COUNTRY</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DNIS_COUNTRY_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LIVE_CONNECT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">NO_PARTY_CONTACT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RECORDINGS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SERVICE_LEVEL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">SPEED_OF_ANSWER</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">BILL_TIME_ROUNDED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TALK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TRANSFERS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_LAST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_FIRST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ABANDON_RATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ABANDONED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_AREA_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_COUNTRY</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_COUNTRY_CODE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">ANI_STATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALL_SURVEY_RESULT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CALLS_TIMED_OUT_IN_IVR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACTED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISCONNECTED_FROM_HOLD</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DISPOSITION_PATH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">IVR_PATH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARENT_SESSION_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_EMAIL</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_GROUP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AGENT_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DEST_AGENT</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">EXTENSION</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">VOICEMAILS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">3RD_PARTY_TALK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">AFTER_CALL_WORK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONFERENCE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONFERENCES</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONSULT_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">COST</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DIAL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HANDLE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOLD_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOLDS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">IVR_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">MANUAL_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARK_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PARKS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">PREVIEW_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_CALLBACK_PROCESSING</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_CALLBACK_REGISTERED</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">QUEUE_WAIT_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">RING_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TALK_TIME_LESS_HOLD_AND_PARK</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIME_TO_ABANDON</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TOTAL_QUEUE_TIME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">city</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACT_CREATE_TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACT_MODIFIED_TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CONTACT_ID</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE_AND_HOUR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DAY_OF_MONTH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DAY_OF_WEEK</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">drop</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">email</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">first_name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">last_name</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HALF_HOUR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOUR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">HOUR_OF_DAY</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">lender</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">loan_amount</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">loan_type</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">MONTH</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">number1</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">origination_date</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">payment</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">state</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">street</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TIMESTAMP</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">transfer_Number</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">YEAR</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">zip</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TransferType</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">Disposition.FG_Code</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.vw_LeadStatAll</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">Domain</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">DATE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LIST_NAME</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">CAMPAIGN</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">LIST_RECORDS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">NEW</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">IN_PROGRESS</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">UNREACHABLE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">FINAL</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+          <div class="object">
+            <h3>dbo.vwInserts</h3>
+            <div class="attributes">
+              <div class="attribute">
+                <div class="attributeName">date</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">TABLE</div>
+                <div class="attributeComment"></div>
+              </div>
+              <div class="attribute">
+                <div class="attributeName">INSERTS</div>
+                <div class="attributeComment"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="group"><a name="Schema"></a><h2>Schema</h2>
+        <div class="objects">
+          <div class="object">
+            <h3>bill</h3>
+            <div class="attributes"></div>
+          </div>
+          <div class="object">
+            <h3>db_owner</h3>
+            <div class="attributes"></div>
+          </div>
+          <div class="object">
+            <h3>dbo</h3>
+            <div class="attributes"></div>
+          </div>
+          <div class="object">
+            <h3>rpt</h3>
+            <div class="attributes"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">Generated by Database Note Taker</div>
+  </body>
+</html>
